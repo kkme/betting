@@ -6,8 +6,12 @@ package org.zmartonos.betting.pojo;
  *
  */
 public final class FootballTeam {
-	private final String name;
-	private final String constant;
+	private String name;
+	private String constant;
+	
+	@SuppressWarnings("unused")
+	private FootballTeam(){
+	}
 
 	/**
 	 * @param name

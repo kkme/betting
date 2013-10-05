@@ -1,7 +1,7 @@
 package org.zmartonos.betting.pojo;
 
 public class FootballScore {
-	private int hostGoals= 0;
+	private int homeGoals= 0;
 	private int guestGoals= 0;
 
 	/**
@@ -15,17 +15,17 @@ public class FootballScore {
 	 * @param hostGoals
 	 * @param guestGoals
 	 */
-	public FootballScore(int hostGoals, int guestGoals) {
-		this.hostGoals = hostGoals;
+	public FootballScore(int homeGoals, int guestGoals) {
+		this.homeGoals = homeGoals;
 		this.guestGoals = guestGoals;
 	}
 	
-	public int getHostGoals() {
-		return hostGoals;
+	public int getHomeGoals() {
+		return homeGoals;
 	}
 
-	public void setHostGoals(int hostGoals) {
-		this.hostGoals = hostGoals;
+	public void setHomeGoals(int homeGoals) {
+		this.homeGoals = homeGoals;
 	}
 
 	public int getGuestGoals() {

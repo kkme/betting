@@ -1,0 +1,21 @@
+{
+	"game":{
+			"host":{
+					"name":"Bayern Munchen",
+					"constant":"BAYERN"
+					},
+			"guest":{
+					"name":"Borussia Dortmund",
+					"constant":"Dortmund"
+					}
+			},
+	"bets":[
+		{
+			"type":"cleanSheet",
+			"team":"HOME",
+			"option":"YES",
+			"odds":"2",
+			"stake":"1"
+		}
+	]
+}

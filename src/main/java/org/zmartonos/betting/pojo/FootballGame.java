@@ -6,11 +6,15 @@ package org.zmartonos.betting.pojo;
  *
  */
 public final class FootballGame {
-	private final FootballTeam host;
-	private final FootballTeam guest;
+	private FootballTeam host;
+	private FootballTeam guest;
 	private FootballScore finalScore;
 	private FootballScore halfTimeScore;
 	
+	@SuppressWarnings("unused")
+	private FootballGame(){
+	}
+
 	/**
 	 * @param host
 	 * @param guest
