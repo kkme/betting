@@ -31,9 +31,12 @@ public class OverUnderGoalBet extends AbstractBet {
 		this.option = option;
 	}
 	
-	@Override
-	public boolean isValidWithResult() {
-		// TODO Auto-generated method stub
-		return false;
+	/*
+	 * (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	public String toString(){
+		return String.format("OverUnderGoalBet: Margin: %2.2f Option: %s Odds: %2.2f Stake: %2.2f Won: %s",
+				margin, option, odds, stake, won);
 	}
 }

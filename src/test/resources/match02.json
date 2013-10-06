@@ -1,0 +1,40 @@
+{
+	"game":{
+			"host":{
+					"name":"West Brom",
+					"constant":"WESTBROM"
+					},
+			"guest":{
+					"name":"Arsenal",
+					"constant":"Arsenal"
+					}
+			},
+	"stakes":[0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1],
+	"bets":[
+		{
+			"type":"overUnderGoal",
+			"option":"OVER",
+			"margin":1.5,
+			"odds":1.28,
+			"stake":2.5
+		},
+		{
+			"type":"doubleChance",
+			"option":"HOME_OR_DRAW",
+			"odds":1.4,
+			"stake":1
+		},
+		{
+			"type":"doubleChance",
+			"option":"GUEST_OR_HOME",
+			"odds":1.33,
+			"stake":1
+		},
+		{
+			"type":"fullTimeStanding",
+			"team":"GUEST",
+			"odds":2.75,
+			"stake":1
+		}
+	]
+}

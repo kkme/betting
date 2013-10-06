@@ -3,11 +3,11 @@ package org.zmartonos.betting.pojo.bet;
 import org.codehaus.jackson.annotate.JsonIgnore;
 
 public class AbstractBet implements Bet{
-	private float odds;
-	private float stake;
+	protected float odds;
+	protected float stake;
 	
 	@JsonIgnore
-	private boolean won= false;
+	protected boolean won= false;
 	
 	protected AbstractBet(){		
 	}
@@ -41,9 +41,8 @@ public class AbstractBet implements Bet{
 	public void setWon(boolean won) {
 		this.won = won;
 	}
-
-	@Override
-	public boolean isValidWithResult() {
-		return false;
+	
+	public boolean hasWon(){
+		return won;
 	}
 }

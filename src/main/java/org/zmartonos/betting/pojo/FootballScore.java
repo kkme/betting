@@ -35,4 +35,16 @@ public class FootballScore {
 	public void setGuestGoals(int guestGoals) {
 		this.guestGoals = guestGoals;
 	}
+	
+	public boolean equals(FootballScore score){
+		return homeGoals==score.homeGoals && guestGoals==score.guestGoals;
+	}
+	
+	public int getTotalGoals(){
+		return homeGoals + guestGoals;
+	}
+	
+	public String toString(){
+		return String.format("[%d - %d]",homeGoals,guestGoals);
+	}
 }

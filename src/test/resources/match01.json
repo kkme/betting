@@ -1,12 +1,12 @@
 {
 	"game":{
 			"host":{
-					"name":"Bayern Munchen",
-					"constant":"BAYERN"
+					"name":"West Brom",
+					"constant":"WESTBROM"
 					},
 			"guest":{
-					"name":"Borussia Dortmund",
-					"constant":"Dortmund"
+					"name":"Arsenal",
+					"constant":"Arsenal"
 					}
 			},
 	"bets":[
@@ -14,8 +14,92 @@
 			"type":"cleanSheet",
 			"team":"HOME",
 			"option":"YES",
-			"odds":"2",
-			"stake":"1"
+			"odds":6,
+			"stake":0.8
+		},
+		{
+			"type":"cleanSheet",
+			"team":"HOME",
+			"option":"NO",
+			"odds":1.12,
+			"stake":1
+		},
+		{
+			"type":"cleanSheet",
+			"team":"GUEST",
+			"option":"YES",
+			"odds":3,
+			"stake":0.8
+		},
+		{
+			"type":"cleanSheet",
+			"team":"GUEST",
+			"option":"NO",
+			"odds":1.36,
+			"stake":1
+		},
+		{
+			"type":"fullTimeStanding",
+			"team":"HOME",
+			"odds":4.75,
+			"stake":0.4
+		},
+		{
+			"type":"fullTimeStanding",
+			"team":"DRAW",
+			"odds":3.80,
+			"stake":1
+		},
+		{
+			"type":"fullTimeStanding",
+			"team":"GUEST",
+			"odds":1.80,
+			"stake":1.4
+		},
+		{
+			"type":"overUnderGoal",
+			"option":"OVER",
+			"margin":0.5,
+			"odds":1.28,
+			"stake":1.6
+		},
+		{
+			"type":"overUnderGoal",
+			"margin":1.5,
+			"option":"OVER",
+			"odds":1.53,
+			"stake":1.4
+		},
+		{
+			"type":"overUnderGoal",
+			"margin":2.5,
+			"option":"OVER",
+			"odds":1.61,
+			"stake":1.4
+		},
+		{
+			"type":"bothTeamsToScore",
+			"option":"YES",
+			"odds":1.57,
+			"stake":1.2
+		},
+		{
+			"type":"bothTeamsToScore",
+			"option":"NO",
+			"odds":2.25,
+			"stake":0.8
+		},
+		{
+			"type":"winToNil",
+			"team":"HOME",
+			"odds":8,
+			"stake":0.2
+		},
+		{
+			"type":"winToNil",
+			"team":"GUEST",
+			"odds":3.25,
+			"stake":1
 		}
 	]
 }

@@ -1,0 +1,61 @@
+0-0
+	fullTimeStanding
+	cleanSheet
+	bothTeamsToScore/NO
+	doubleChance/HOME_OR_DRAW,GUEST_OR_DRAW
+1-1
+	fullTimeStanding
+	overUnderGoal0.5
+	overUnderGoal1.5
+	bothTeamsToScore/YES
+	doubleChance/HOME_OR_DRAW,GUEST_OR_DRAW
+1-0
+	fullTimeStanding
+	cleanSheet
+	overUnderGoal0.5
+	bothTeamsToScore/NO
+	winToNil
+	doubleChance/HOME_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
+2-0
+	fullTimeStanding
+	cleanSheet
+	overUnderGoal0.5
+	overUnderGoal1.5
+	bothTeamsToScore/NO
+	winToNil
+	doubleChance/HOME_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
+2-1
+	fullTimeStanding
+	overUnderGoal0.5
+	overUnderGoal1.5
+	overUnderGoal2.5
+	bothTeamsToScore/YES
+	doubleChance/HOME_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
+0-1
+	fullTimeStanding
+	cleanSheet
+	overUnderGoal0.5
+	bothTeamsToScore/NO
+	winToNil
+	doubleChance/GUEST_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
+0-2
+	fullTimeStanding
+	cleanSheet
+	overUnderGoal0.5
+	overUnderGoal1.5
+	bothTeamsToScore/NO
+	winToNil
+	doubleChance/GUEST_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
+1-2
+	fullTimeStanding
+	overUnderGoal0.5
+	overUnderGoal1.5
+	overUnderGoal2.5
+	bothTeamsToScore/YES
+	doubleChance/GUEST_OR_DRAW,GUEST_OR_HOME
+	drawNoBet
